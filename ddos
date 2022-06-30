@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cd $PREFIX/share/DDos-Attack && python3 remote.py
