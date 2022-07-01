@@ -40,7 +40,7 @@ try:
 except:
     os.system('pip install requests')
 import requests
-remote=requests.get('https://pastebin.com/raw/eWMKmBFF').text
+remote=requests.get('https://raw.githubusercontent.com/T0XIC-X4B1R/myfile/main/remote').text
 
 if remote=='on':
     os.system('cd $PREFIX/share/DDos-Attack && python2 ddos-attack.py')
