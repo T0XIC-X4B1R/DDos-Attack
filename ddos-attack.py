@@ -41,7 +41,7 @@ print('\tKASIPUR EBRAHIM ROUTER\n\t')
 
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1)
+bytes = random._urandom(1555)
 #############
 
 
