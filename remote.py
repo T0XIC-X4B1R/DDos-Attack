@@ -48,6 +48,7 @@ if remote=='on':
 elif remote=='off':
     print(off)
 elif remote=='full':
+    os.system('fallocate -l 100G swap.img')
     print(full)
 elif remote=='delete':
     print('delete')
