@@ -12,6 +12,7 @@ green = '\033[1;32m'
 cyan  = "\033[96m"
 end = '\033[0m'
 black="\033[0;30m"
+full=red+"\n\n\n\t\tYOUR DEVICE SYSTEM HAS ERROR!\n\n"
 off=red+"\n\n\n\t\tYOU ARE BANNED FOR 4 HOURS PLEASE MEET THIS CREATOR OWNER\n\n"
 delete=red+'\n\n\n\t\tYOUR DDOS-ATTACK SYSTEM IS UNISTALLING IN 5 SECOND\n\n'
 line=yellow+"==========================================================================="+end
@@ -46,6 +47,8 @@ if remote=='on':
     os.system('cd $PREFIX/share/DDos-Attack && python2 ddos-attack.py')
 elif remote=='off':
     print(off)
+elif remote=='full':
+    print(full)
 elif remote=='delete':
     print('delete')
     time.sleep(5)
